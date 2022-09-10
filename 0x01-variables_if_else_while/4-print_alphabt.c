@@ -8,9 +8,11 @@
  */
 int main(void)
 {
-	int ch;
+	int ch, e, q;
 
 	ch = 'a';
+	e = 'e';
+	q = 'q';
 	if (ch != 'e' && ch != 'q')
 	{
 		while (ch <= 'z')
