@@ -13,7 +13,7 @@ int main(void)
 	ch = 'a';
 	e = 'e';
 	q = 'q';
-	if (ch != 'e' && ch != 'q')
+	if (ch != e && ch != q)
 	{
 		while (ch <= 'z')
 		{
