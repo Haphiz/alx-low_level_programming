@@ -4,7 +4,7 @@
  * print_alphabet_10 - Print alphabe 10 times in lowercase using only _putchar
  * Return: 0 Always Success
  */
-void print_alphabet_10(void)
+void print_alphabet_x10(void)
 {
 	int i, j;
 
