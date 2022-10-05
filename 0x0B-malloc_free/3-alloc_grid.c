@@ -2,12 +2,12 @@
 #include <stdlib.h>
 
 /**
- * alloc_grid - A function that returns a pointer to a
- * 2 dimensional array of integers
- * @width: An input integer at number of columns
- * @height: An input integer at number of rows
- * Return: pointer to a 2D array, NULL on failure
- */
+* alloc_grid - make a 2-D array dynamically
+* @col: column of the array
+* @row: row of the array
+*
+* Return: pointer to the 2-D array
+*/
 int **alloc_grid(int col, int row)
 {
 	int i, j,  **grid;
